@@ -1,0 +1,1161 @@
+/* FONTS */
+
+@font-face {
+    font-family: "Bodoni Moda";
+    src: url("./FONTS/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("./FONTS/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf");
+}
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF8F1;
+    color: #370C18;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    max-width: 1600px;
+    min-height: 90px;
+    margin: 0 auto;
+    padding: 20px 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+/* LOGO */
+
+.logo {
+    flex-shrink: 0;
+}
+
+.logo img {
+    display: block;
+    width: 156px;
+    height: auto;
+}
+
+/* NAVBAR */
+
+.navbar {
+    flex: 1;
+    min-width: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.header a {
+    color: #370C18;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* HEADER RIGHT */
+
+.header-right {
+    flex-shrink: 0;
+}
+
+.header-right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login img {
+    width: 30px;
+    height: 30px;
+}
+
+.order-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid #370C18;
+    background-color: #EEECE5;
+    font-size: 13px;
+}
+
+
+/* HERO */
+
+.hero {
+    width: 100%;
+    padding: 20px 35px 0;
+}
+
+.hero h1 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 9vw;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.hero h1 em {
+    font-style: italic;
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* MADE WITH LOVE */
+
+.love-section {
+    width: 100%;
+    padding: 210px 35px 220px;
+    text-align: center;
+}
+
+/* HEADING */
+
+.love-heading {
+    max-width: 1050px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.love-heading h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.love-left,
+.love-right {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 18px;
+}
+
+/* DESCRIPTION */
+
+.love-description {
+    max-width: 540px;
+    margin: 35px auto 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* IMAGES */
+
+.love-images {
+    max-width: 710px;
+    margin: 70px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.love-images img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* BUTTON */
+
+.love-action {
+    margin-top: 60px;
+}
+
+.love-btn {
+    width: 220px;
+    height: 52px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #370C18;
+    color: #FAF8F1;
+
+    font-family: "JetBrains Mono", monospace;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/* CUISINE SECTION */
+
+.cuisine-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+/* IMAGE */
+
+.cuisine-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* CONTENT */
+
+.cuisine-content {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+
+    width: 46%;
+    padding: 65px 40px;
+    background-color: #FAF8F1;
+    text-align: center;
+}
+
+/* HEADING */
+
+.cuisine-content h2 {
+    max-width: 430px;
+    margin: 0 auto;
+
+    font-family: "Bodoni Moda", serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+/* DESCRIPTION */
+
+.cuisine-content p {
+    max-width: 410px;
+    margin: 35px auto;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* BUTTON */
+
+.cuisine-btn {
+    width: 220px;
+    height: 50px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #370C18;
+    color: #FAF8F1;
+
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* RESERVATION SECTION */
+
+.reserve-section {
+    width: 100%;
+    padding: 40px 35px 130px;
+    background-color: #FAF8F1;
+}
+
+/* HEADING */
+
+.reserve-section h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    color: #370C18;
+}
+
+/* DESCRIPTION */
+
+.reserve-description {
+    margin: 15px auto 55px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* FORM */
+
+.reserve-form {
+    width: 100%;
+    max-width: 1550px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 125px;
+    gap: 16px;
+    align-items: end;
+}
+
+/* FORM FIELDS */
+
+.reserve-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reserve-field label {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.reserve-field select,
+.reserve-field input {
+    width: 100%;
+    height: 42px;
+    padding: 0 15px;
+
+    border: 1px solid #94898A;
+    background-color: #FAF8F1;
+    color: #370C18;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* BUTTON */
+
+.reserve-btn {
+    width: 100%;
+    height: 42px;
+    padding: 0;
+
+    border: 0;
+    background-color: #370C18;
+    color: #FAF8F1;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    background-color: #370C18;
+    color: #FAF8F1;
+    padding: 50px 35px 40px;
+}
+
+/* FOOTER HEADING */
+
+.footer h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/* FOOTER DETAILS */
+
+.footer-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.footer-address {
+    text-align: left;
+}
+
+.footer-hours {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.footer-contact {
+    text-align: right;
+}
+
+.footer-address h3,
+.footer-contact h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.footer-address p,
+.footer-hours p,
+.footer-contact p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+/* FOOTER POLICY */
+
+.footer-policy li {
+    margin-bottom: 5px;
+}
+
+.footer-policy a {
+    color: #BFAEB1;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+/* SOCIAL ICONS */
+
+.footer-social ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-social img {
+    display: block;
+    width: 35px;
+    height: auto;
+}
+
+/* COPYRIGHT */
+
+.footer-copyright {
+    text-align: right;
+}
+
+.footer-copyright p,
+.footer-copyright a {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #BFAEB1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+/* TABLET */
+
+@media screen and (max-width: 1100px) {
+
+    /* HEADER */
+
+    .header {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .navbar {
+        order: 3;
+        flex: 0 0 100%;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .header-right {
+        margin-left: auto;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding: 20px 25px 0;
+    }
+
+    .hero h1 {
+        font-size: 8.5vw;
+    }
+
+
+    /* MADE WITH LOVE */
+
+    .love-section {
+        padding: 150px 25px 170px;
+    }
+
+    .love-heading h2 {
+        font-size: 48px;
+    }
+
+    .love-left,
+    .love-right {
+        font-size: 15px;
+    }
+
+    .love-images {
+        width: 90%;
+    }
+
+
+    /* CUISINE */
+
+    .cuisine-content {
+        width: 65%;
+        padding: 45px 30px;
+    }
+
+    .cuisine-content h2 {
+        font-size: 40px;
+    }
+
+
+    /* RESERVATION */
+
+    .reserve-section {
+        padding: 50px 25px 100px;
+    }
+
+    .reserve-section h2 {
+        font-size: 48px;
+    }
+
+    .reserve-description {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .reserve-form {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .reserve-field {
+        min-width: 0;
+    }
+
+    .reserve-btn {
+        width: 100%;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        padding: 45px 25px;
+    }
+
+    .footer h2 {
+        font-size: 48px;
+    }
+
+    .footer-address p,
+    .footer-hours p,
+    .footer-contact p {
+        font-size: 14px;
+    }
+
+    .footer-details,
+    .footer-bottom {
+        gap: 15px;
+    }
+
+    .footer-social img {
+        width: 30px;
+    }
+
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 760px) {
+
+    /* HEADER */
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 15px;
+        gap: 20px;
+    }
+
+    .logo img {
+        width: 135px;
+    }
+
+    .navbar {
+        order: 0;
+        width: 100%;
+        flex: initial;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .header a {
+        font-size: 13px;
+    }
+
+    .header-right {
+        margin-left: 0;
+    }
+
+    .header-right ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .order-btn {
+        width: 135px;
+        height: 40px;
+        padding: 0;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding: 15px 15px 0;
+    }
+
+    .hero h1 {
+        font-size: 10vw;
+        white-space: normal;
+        line-height: 1.1;
+        margin-bottom: 15px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* MADE WITH LOVE */
+
+    .love-section {
+        padding: 90px 15px 110px;
+    }
+
+    .love-heading {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .love-heading h2 {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        font-size: 36px;
+    }
+
+    .love-left {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .love-right {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .love-description {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .love-images {
+        width: 90%;
+        max-width: 350px;
+        grid-template-columns: 1fr;
+        margin-top: 45px;
+    }
+
+    .love-images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .love-action {
+        margin-top: 40px;
+    }
+
+    .love-btn {
+        width: 190px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+
+    /* CUISINE */
+
+    .cuisine-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuisine-photo {
+        width: 100%;
+        height: auto;
+    }
+
+    .cuisine-content {
+        width: 90%;
+        margin: -35px auto 0;
+        padding: 35px 20px;
+    }
+
+    .cuisine-content h2 {
+        font-size: 32px;
+    }
+
+    .cuisine-content p {
+        font-size: 16px;
+        margin: 25px auto;
+    }
+
+    .cuisine-btn {
+        width: 190px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+
+    /* RESERVATION */
+
+    .reserve-section {
+        padding: 40px 15px 70px;
+    }
+
+    .reserve-section h2 {
+        font-size: 36px;
+    }
+
+    .reserve-description {
+        font-size: 16px;
+        margin: 15px auto 35px;
+    }
+
+    .reserve-form {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .reserve-field {
+        width: 100%;
+        min-width: 0;
+        gap: 8px;
+    }
+
+    .reserve-field label {
+        font-size: 16px;
+    }
+
+    .reserve-field select,
+    .reserve-field input {
+        width: 100%;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .reserve-btn {
+        width: 100%;
+        height: 42px;
+        font-size: 16px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        padding: 40px 15px;
+    }
+
+    .footer h2 {
+        font-size: 40px;
+    }
+
+    .footer-details {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    .footer-address,
+    .footer-hours,
+    .footer-contact {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .footer-bottom {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .footer-policy {
+        text-align: center;
+    }
+
+    .footer-social ul {
+        justify-content: center;
+    }
+
+    .footer-social img {
+        width: 30px;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+
+@media screen and (max-width: 360px) {
+
+    /* HEADER */
+
+    .header {
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .navbar ul {
+        gap: 10px;
+    }
+
+    .header a {
+        font-size: 12px;
+    }
+
+    .header-right ul {
+        gap: 12px;
+    }
+
+    .login img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .order-btn {
+        width: 125px;
+        height: 38px;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding: 10px 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 10vw;
+        white-space: normal;
+        margin-bottom: 10px;
+    }
+
+
+    /* MADE WITH LOVE */
+
+    .love-section {
+        padding: 70px 10px 90px;
+    }
+
+    .love-heading h2 {
+        font-size: 30px;
+    }
+
+    .love-left,
+    .love-right {
+        font-size: 12px;
+    }
+
+    .love-description {
+        font-size: 14px;
+    }
+
+    .love-btn {
+        width: 180px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+
+    /* CUISINE */
+
+    .cuisine-content {
+        width: 94%;
+        padding: 25px 15px;
+    }
+
+    .cuisine-content h2 {
+        font-size: 27px;
+    }
+
+    .cuisine-content p {
+        font-size: 14px;
+    }
+
+    .cuisine-btn {
+        width: 175px;
+        height: 42px;
+        font-size: 13px;
+    }
+
+
+    /* RESERVATION */
+
+    .reserve-section {
+        padding: 35px 10px 55px;
+    }
+
+    .reserve-section h2 {
+        font-size: 30px;
+    }
+
+    .reserve-description {
+        font-size: 14px;
+    }
+
+    .reserve-field label {
+        font-size: 14px;
+    }
+
+    .reserve-field select,
+    .reserve-field input {
+        font-size: 14px;
+    }
+
+    .reserve-btn {
+        font-size: 14px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        padding: 35px 10px;
+    }
+
+    .footer h2 {
+        font-size: 32px;
+    }
+
+    .footer-address h3,
+    .footer-contact h3 {
+        font-size: 14px;
+    }
+
+    .footer-address p,
+    .footer-hours p,
+    .footer-contact p {
+        font-size: 12px;
+    }
+
+    .footer-policy a {
+        font-size: 13px;
+    }
+
+    .footer-social img {
+        width: 26px;
+    }
+
+    .footer-copyright p,
+    .footer-copyright a {
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
