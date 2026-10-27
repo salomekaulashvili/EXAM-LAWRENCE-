@@ -1,0 +1,306 @@
+/* MENU SECTION */
+.menu-section {
+    width: 100%;
+    background-image: url("./IMG/Restaurant Table Setting.avif");
+    display: flex;
+    justify-content: center;
+    padding: 120px 35px 85px;
+}
+
+
+/* MENU CONTAINER */
+
+.menu-container {
+    width: 80%;
+    max-width: 1225px;
+    background-color: #EEECE5;
+    padding: 28px 40px 55px;
+    color: #380D16;
+}
+
+
+/* MENU HEADING */
+
+.menu-container h1 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 55px;
+}
+
+
+/* CATEGORY HEADING */
+
+.menu-container h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+
+/* CATEGORY DESCRIPTION */
+
+.menu-category-description {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #20080D;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #BFB9B4;
+}
+
+
+/* MENU ITEMS */
+
+.menu-item {
+    padding: 23px 0;
+    border-bottom: 1px solid #BFB9B4;
+}
+
+.menu-item h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.menu-item p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #20080D;
+}
+
+.menu-item .menu-price {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 18px;
+    color: #380D16;
+    margin-top: 8px;
+}
+
+
+/* LAST ITEMS */
+
+.last-item {
+    border-bottom: none;
+}
+
+
+/* MAIN COURSES */
+
+.main-courses {
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+/* TABLET */
+
+@media screen and (max-width: 1100px) {
+
+    /* MENU SECTION */
+
+    .menu-section {
+        padding: 90px 0 70px;
+    }
+
+    /* MENU CONTAINER */
+
+    .menu-container {
+        width: 85%;
+        padding: 28px 40px 45px;
+    }
+
+    /* MENU HEADING */
+
+    .menu-container h1 {
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+
+    /* CATEGORY HEADING */
+
+    .menu-container h2 {
+        font-size: 26px;
+    }
+
+    /* CATEGORY DESCRIPTION */
+
+    .menu-category-description {
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+
+    /* MENU ITEMS */
+
+    .menu-item {
+        padding: 23px 0;
+    }
+
+    .menu-item h3 {
+        font-size: 18px;
+    }
+
+    .menu-item p {
+        font-size: 16px;
+    }
+
+    .menu-item .menu-price {
+        font-size: 18px;
+    }
+
+    /* MAIN COURSES */
+
+    .main-courses {
+        margin-top: 45px;
+    }
+
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 760px) {
+
+    /* MENU SECTION */
+
+    .menu-section {
+        padding: 70px 0;
+    }
+
+    /* MENU CONTAINER */
+
+    .menu-container {
+        width: 88%;
+        padding: 28px 40px 45px;
+    }
+
+    /* MENU HEADING */
+
+    .menu-container h1 {
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+
+    /* CATEGORY HEADING */
+
+    .menu-container h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    /* CATEGORY DESCRIPTION */
+
+    .menu-category-description {
+        font-size: 14px;
+        line-height: 1.4;
+        padding-bottom: 20px;
+    }
+
+    /* MENU ITEMS */
+
+    .menu-item {
+        padding: 22px 0;
+    }
+
+    .menu-item h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .menu-item p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .menu-item .menu-price {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    /* MAIN COURSES */
+
+    .main-courses {
+        margin-top: 45px;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+
+@media screen and (max-width: 360px) {
+
+    /* MENU SECTION */
+
+    .menu-section {
+        padding: 35px 0;
+    }
+
+    /* MENU CONTAINER */
+
+    .menu-container {
+        width: 88%;
+        padding: 28px 40px 42px;
+    }
+
+    /* MENU HEADING */
+
+    .menu-container h1 {
+        font-size: 44px;
+        margin-bottom: 45px;
+    }
+
+    /* CATEGORY HEADING */
+
+    .menu-container h2 {
+        font-size: 22px;
+    }
+
+    /* CATEGORY DESCRIPTION */
+
+    .menu-category-description {
+        font-size: 14px;
+        line-height: 1.4;
+        padding-bottom: 20px;
+    }
+
+    /* MENU ITEMS */
+
+    .menu-item {
+        padding: 22px 0;
+    }
+
+    .menu-item h3 {
+        font-size: 14px;
+    }
+
+    .menu-item p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .menu-item .menu-price {
+        font-size: 14px;
+    }
+
+    /* MAIN COURSES */
+
+    .main-courses {
+        margin-top: 42px;
+    }
+
+}
