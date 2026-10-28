@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAWRENCE | Reservations</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reservations-style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="./IMG/c837a6_d34b36c07b0d4874a2e265708391af7f.svg"
+                     alt="LAWRENCE">
+            </a>
+        </div>
+
+        <div class="header-menu">
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="menus.html">Menus</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="experiences.html">Experiences</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <ul>
+                    <li>
+                        <a href="login.html" class="login">
+                            <img src="./ICONS/user (2).png" alt="USER">
+                            <span>Log In</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="order.html" class="order-btn">
+                            Online order
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="burger-menu">
+            <img src="./ICONS/menu.png" alt="Burgermenu">
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="reservations-section">
+
+            <div class="reservations-breadcrumb">
+                <a href="index.html">Home</a>
+                <span>›</span>
+                <span>Reservations</span>
+            </div>
+
+            <div class="reservations-heading">
+
+                <h1>Make a reservation</h1>
+
+                <p>
+                    Select your details and we’ll try to get
+                    the best seats for you.
+                </p>
+
+            </div>
+
+            <form class="reservations-form">
+
+                <div class="reservations-fields">
+
+                    <div class="reservations-field">
+
+                        <label for="party-size">Party size</label>
+
+                        <select id="party-size" name="party-size">
+                            <option value="1">1 guest</option>
+                            <option value="2" selected>2 guests</option>
+                            <option value="3">3 guests</option>
+                            <option value="4">4 guests</option>
+                            <option value="5">5 guests</option>
+                            <option value="6">6 guests</option>
+                        </select>
+
+                    </div>
+
+                    <div class="reservations-field">
+
+                        <label for="reservation-date">Date</label>
+
+                        <input type="date"
+                               id="reservation-date"
+                               name="reservation-date"
+                               value="2026-10-28">
+
+                    </div>
+
+                    <div class="reservations-field">
+
+                        <label for="reservation-time">Time</label>
+
+                        <select id="reservation-time"
+                                name="reservation-time">
+
+                            <option value="12:45">12:45 PM</option>
+                            <option value="13:00">1:00 PM</option>
+                            <option value="13:15">1:15 PM</option>
+                            <option value="13:30">1:30 PM</option>
+                            <option value="13:45">1:45 PM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="14:15">2:15 PM</option>
+                            <option value="14:30" selected>2:30 PM</option>
+                            <option value="14:45">2:45 PM</option>
+                            <option value="15:00">3:00 PM</option>
+                            <option value="15:15">3:15 PM</option>
+                            <option value="15:30">3:30 PM</option>
+                            <option value="15:45">3:45 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                            <option value="16:15">4:15 PM</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="reservations-divider"></div>
+
+                <div class="reservations-times">
+
+                    <p>Choose an available time slot:</p>
+
+                    <div class="time-slots">
+
+                        <button type="button" class="time-slot">
+                            12:45 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            1:00 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            1:15 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            1:30 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            1:45 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            2:00 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            2:15 PM
+                        </button>
+
+                        <button type="button" class="time-slot selected-time">
+                            2:30 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            2:45 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            3:00 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            3:15 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            3:30 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            3:45 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            4:00 PM
+                        </button>
+
+                        <button type="button" class="time-slot">
+                            4:15 PM
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <button type="button" class="reservations-button">
+                    Reserve Now
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <h2>Opening Hours</h2>
+
+        <div class="footer-details">
+
+            <div class="footer-address">
+
+                <h3>ADDRESS</h3>
+
+                <p>
+                    500 Terry Francine Street<br>
+                    San Francisco, CA 94158
+                </p>
+
+            </div>
+
+            <div class="footer-hours">
+
+                <p>
+                    Mon - Fri: 11am - 10pm<br>
+                    Sat - Sun: 11am - 12am
+                </p>
+
+            </div>
+
+            <div class="footer-contact">
+
+                <h3>CONTACT US</h3>
+
+                <p>
+                    info@mysite.com<br>
+                    123 456 6780
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="footer-policy">
+
+                <ul>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Accessibility Statement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-social">
+
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            <img src="./ICONS/twitter.png" alt="X">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="./ICONS/instagram.png"
+                                 alt="Instagram">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="./ICONS/tripadvisor.png"
+                                 alt="Tripadvisor">
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-copyright">
+
+                <p>
+                    © 2035 by Lawrence.<br>
+                    Powered and secured by
+                    <a href="https://www.wix.com/">Wix</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
