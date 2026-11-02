@@ -1,0 +1,25 @@
+/* FONTS */
+
+@font-face {
+    font-family: "Bodoni Moda";
+    src: url("../../FONTS/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("../../FONTS/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf");
+}
+
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF8F1;
+    color: #370C18;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+}
