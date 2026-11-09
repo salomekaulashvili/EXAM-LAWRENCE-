@@ -70,7 +70,9 @@
     font-size: 18px;
     text-decoration: none;
 }
-
+.demo-btn:hover {
+    text-decoration: underline;
+}
 
 /* RESPONSIVE */
 

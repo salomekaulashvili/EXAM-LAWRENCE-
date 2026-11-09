@@ -349,7 +349,11 @@
     text-decoration: none;
 }
 
-
+.love-btn:hover,
+.cuisine-btn:hover,
+.reserve-btn:hover {
+    text-decoration: underline;
+}
 
 
 

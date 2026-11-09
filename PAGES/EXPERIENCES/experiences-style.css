@@ -131,7 +131,9 @@
     text-decoration: none;
     text-align: center;
 }
-
+.experience-button:hover {
+    text-decoration: underline;
+}
 
 /* RESPONSIVE */
 

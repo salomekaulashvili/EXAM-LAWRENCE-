@@ -131,6 +131,9 @@
     font-size: 18px;
     text-align: center;
 }
+.contact-submit:hover {
+    text-decoration: underline;
+}
 
 
 /* VISIT SECTION */

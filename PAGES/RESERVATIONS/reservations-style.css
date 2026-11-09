@@ -153,7 +153,12 @@
     font-size: 20px;
     text-align: center;
 }
-
+.reservations-button:hover {
+    text-decoration: underline;
+}
+.time-slot:hover {
+    background-color: #E5E0DD;
+}
 
 /* RESPONSIVE */
 
