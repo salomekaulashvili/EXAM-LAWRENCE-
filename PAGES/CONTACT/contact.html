@@ -37,22 +37,28 @@
             <div class="header-right">
                 <ul>
                     <li>
-                        <a href="#" class="login">
+                        <a href="../LOGIN/demo-mode.html" class="login">
                             <img src="../../ICONS/user (2).png" alt="USER">
                             <span>Log In</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="order-btn">Online order</a>
+                        <a href="https://ru.wix.com/templateslp/links?showMobileView=true&experimentsoff=specs.thunderbolt.viewport_hydration_extended_react_18" class="order-btn">Online order</a>
                     </li>
                 </ul>
             </div>
 
         </div>
 
-        <div class="burger-menu">
-            <img src="../../ICONS/menu.png" alt="Burgermenu">
+       <div class="burger-menu">
+            <button type="button" class="burger" id="burger-button" aria-label="Open menu">
+                &#9776;
+            </button>
+
+            <button type="button" class="close-nav" id="close-button" aria-label="Close menu">
+                &#10005;
+            </button>
         </div>
 
     </header>
@@ -78,19 +84,19 @@
                     <div class="contact-name-fields">
 
                         <div class="contact-field">
-                            <label for="first-name">First name</label>
+                            <label for="first-name">First name*</label>
                             <input type="text" id="first-name" name="first-name" required>
                         </div>
 
                         <div class="contact-field">
-                            <label for="last-name">Last name</label>
+                            <label for="last-name">Last name*</label>
                             <input type="text" id="last-name" name="last-name" required>
                         </div>
 
                     </div>
 
                     <div class="contact-field">
-                        <label for="email">Email</label>
+                        <label for="email">Email*</label>
                         <input type="email" id="email" name="email" required>
                     </div>
 
@@ -108,7 +114,7 @@
                         <input type="checkbox" id="newsletter" name="newsletter">
 
                         <label for="newsletter">
-                            Yes, subscribe me to your newsletter.
+                            Yes, subscribe me to your newsletter.*
                         </label>
                     </div>
 
@@ -196,29 +202,29 @@
 
             <div class="footer-policy">
                 <ul>
-                    <li><a href="#">Refund Policy</a></li>
-                    <li><a href="#">Accessibility Statement</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="../LEGAL/refund-policy.html">Refund Policy</a></li>
+                    <li><a href="../CONTACT/contact.html">Accessibility Statement</a></li>
+                    <li><a href="../LEGAL/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="../LEGAL/terms-conditions.html">Terms &amp; Conditions</a></li>
                 </ul>
             </div>
 
             <div class="footer-social">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="https://x.com/wix">
                             <img src="../../ICONS/twitter.png" alt="X">
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/wix">
                             <img src="../../ICONS/instagram.png" alt="Instagram">
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="https://www.tripadvisor.com/">
                             <img src="../../ICONS/tripadvisor.png" alt="Tripadvisor">
                         </a>
                     </li>
@@ -236,6 +242,8 @@
         </div>
 
     </footer>
+
+<script src="../../script.js"></script>
 
 </body>
 </html>

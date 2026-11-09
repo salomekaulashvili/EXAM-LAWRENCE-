@@ -7,6 +7,7 @@
     color: #20080D;
 }
 
+
 /* BREADCRUMB */
 
 .experiences-breadcrumb {
@@ -27,6 +28,7 @@
     color: #20080D;
 }
 
+
 /* TITLE */
 
 .experiences-title {
@@ -39,6 +41,7 @@
     margin-bottom: 55px;
 }
 
+
 /* CARDS CONTAINER */
 
 .experiences-cards {
@@ -48,6 +51,7 @@
     gap: 25px;
     align-items: stretch;
 }
+
 
 /* SINGLE CARD */
 
@@ -59,6 +63,7 @@
     flex-direction: column;
 }
 
+
 /* CARD IMAGE */
 
 .experience-image {
@@ -67,6 +72,7 @@
     height: 490px;
     object-fit: cover;
 }
+
 
 /* CARD CONTENT */
 
@@ -97,6 +103,7 @@
     margin-bottom: 25px;
 }
 
+
 /* EVENT DETAILS */
 
 .experience-details {
@@ -106,6 +113,7 @@
     color: #20080D;
     margin-bottom: 55px;
 }
+
 
 /* RESERVE BUTTON */
 
@@ -125,28 +133,12 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* RESPONSIVE */
 
 /* TABLET */
 
 @media screen and (max-width: 1100px) {
+
     .experiences-section {
         padding: 35px 35px 55px;
     }
@@ -181,18 +173,20 @@
         height: 44px;
         font-size: 16px;
     }
+
 }
+
 
 /* TWO COLUMNS */
 
 @media screen and (max-width: 950px) {
+
     .experiences-title {
         font-size: 38px;
         margin-bottom: 45px;
     }
 
     .experiences-cards {
-        width: 100%;
         max-width: 550px;
         margin: 0 auto;
         grid-template-columns: repeat(2, 1fr);
@@ -224,11 +218,14 @@
         height: 42px;
         font-size: 15px;
     }
+
 }
+
 
 /* MOBILE */
 
 @media screen and (max-width: 760px) {
+
     .experiences-section {
         padding: 35px 25px 50px;
     }
@@ -258,30 +255,29 @@
     }
 
     .experience-content h2 {
-        font-size: 22px;
         margin-bottom: 10px;
     }
 
     .experience-description {
-        font-size: 15px;
         margin-bottom: 20px;
     }
 
     .experience-details {
-        font-size: 15px;
         margin-bottom: 25px;
     }
 
     .experience-button {
         width: 145px;
         height: 44px;
-        font-size: 15px;
     }
+
 }
+
 
 /* SMALL MOBILE */
 
 @media screen and (max-width: 600px) {
+
     .experiences-section {
         padding: 30px 20px 45px;
     }
@@ -294,18 +290,13 @@
         font-size: 32px;
     }
 
-    .experiences-cards {
-        max-width: 250px;
-    }
-
-    .experience-image {
-        height: 250px;
-    }
 }
+
 
 /* VERY SMALL MOBILE */
 
 @media screen and (max-width: 360px) {
+
     .experiences-section {
         padding: 25px 15px 35px;
     }
@@ -350,4 +341,5 @@
         height: 42px;
         font-size: 14px;
     }
+
 }

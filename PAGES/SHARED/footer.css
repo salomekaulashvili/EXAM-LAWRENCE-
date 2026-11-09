@@ -192,20 +192,11 @@
     .footer-bottom {
         grid-template-columns: 1fr;
         gap: 30px;
-        margin-top: 40px;
         align-items: center;
     }
 
     .footer-policy {
         text-align: center;
-    }
-
-    .footer-social ul {
-        justify-content: center;
-    }
-
-    .footer-social img {
-        width: 30px;
     }
 
     .footer-copyright {

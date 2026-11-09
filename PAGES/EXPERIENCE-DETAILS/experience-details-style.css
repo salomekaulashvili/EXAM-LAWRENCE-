@@ -1,10 +1,12 @@
 /* EXPERIENCE DETAILS SECTION */
+
 .experience-detail-section {
     width: 100%;
     background-color: #FAF8F1;
     padding: 35px 5.7% 85px;
     color: #20080D;
 }
+
 
 /* BREADCRUMB */
 
@@ -27,6 +29,7 @@
     color: #20080D;
 }
 
+
 /* MAIN CARD */
 
 .detail-card {
@@ -36,6 +39,7 @@
     border: 1px solid #E3DFD9;
 }
 
+
 /* IMAGE */
 
 .detail-image {
@@ -44,6 +48,7 @@
     height: 680px;
     object-fit: cover;
 }
+
 
 /* RIGHT CONTENT */
 
@@ -73,6 +78,7 @@
     margin-bottom: 40px;
 }
 
+
 /* INFORMATION TABLE */
 
 .detail-information {
@@ -96,6 +102,7 @@
     line-height: 1.3;
     text-align: center;
 }
+
 
 /* ABOUT AND RESERVATION */
 
@@ -126,28 +133,12 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* RESPONSIVE */
 
 /* TABLET */
 
 @media screen and (max-width: 1200px) {
+
     .experience-detail-section {
         padding: 35px 4% 75px;
     }
@@ -177,11 +168,14 @@
     .detail-bottom {
         width: 75%;
     }
+
 }
+
 
 /* SMALL TABLET */
 
 @media screen and (max-width: 900px) {
+
     .detail-image {
         height: 500px;
     }
@@ -202,11 +196,14 @@
         min-height: 55px;
         font-size: 14px;
     }
+
 }
+
 
 /* MOBILE */
 
 @media screen and (max-width: 760px) {
+
     .experience-detail-section {
         padding: 30px 6% 55px;
     }
@@ -222,7 +219,6 @@
     }
 
     .detail-image {
-        width: 100%;
         height: 400px;
     }
 
@@ -237,11 +233,9 @@
 
     .detail-description {
         font-size: 18px;
-        margin-bottom: 30px;
     }
 
     .detail-information div {
-        min-height: 55px;
         font-size: 15px;
     }
 
@@ -264,11 +258,14 @@
     .detail-reservation {
         margin-top: 50px;
     }
+
 }
+
 
 /* SMALL MOBILE */
 
 @media screen and (max-width: 600px) {
+
     .experience-detail-section {
         padding: 25px 5% 45px;
     }
@@ -312,11 +309,14 @@
     .detail-reservation p {
         font-size: 15px;
     }
+
 }
+
 
 /* VERY SMALL MOBILE */
 
 @media screen and (max-width: 360px) {
+
     .experience-detail-section {
         padding: 20px 15px 35px;
     }
@@ -345,7 +345,6 @@
     }
 
     .detail-information div {
-        min-height: 50px;
         padding: 8px 4px;
         font-size: 12px;
     }
@@ -369,4 +368,5 @@
     .detail-reservation {
         margin-top: 35px;
     }
+
 }

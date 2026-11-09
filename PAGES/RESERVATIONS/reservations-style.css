@@ -104,7 +104,6 @@
 }
 
 
-
 /* AVAILABLE TIMES */
 
 .reservations-times p {
@@ -156,21 +155,14 @@
 }
 
 
-
-
-
-
 /* RESPONSIVE */
+
 /* TABLET */
 
 @media screen and (max-width: 1100px) {
 
     .reservations-section {
         padding: 70px 40px 65px;
-    }
-
-    .reservations-fields {
-        width: 100%;
     }
 
     .reservations-heading h1 {
@@ -201,7 +193,6 @@
     }
 
     .reservations-button {
-        height: 52px;
         font-size: 18px;
     }
 
@@ -235,7 +226,6 @@
     }
 
     .reservations-fields {
-        width: 100%;
         grid-template-columns: 1fr;
         gap: 20px;
     }
@@ -256,12 +246,6 @@
 
     .reservations-times p {
         font-size: 16px;
-        margin-bottom: 25px;
-    }
-
-    .time-slots {
-        grid-template-columns: repeat(5, 1fr);
-        gap: 10px;
     }
 
     .time-slot {
@@ -311,12 +295,10 @@
 
     .time-slots {
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
     }
 
     .time-slot {
         height: 43px;
-        font-size: 13px;
     }
 
     .reservations-button {
@@ -346,7 +328,6 @@
 
     .reservations-heading p {
         font-size: 14px;
-        line-height: 1.4;
     }
 
     .reservations-form {
@@ -373,7 +354,6 @@
     }
 
     .time-slots {
-        grid-template-columns: repeat(3, 1fr);
         gap: 8px;
     }
 

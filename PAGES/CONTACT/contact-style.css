@@ -9,6 +9,7 @@
     overflow: hidden;
 }
 
+
 /* BACKGROUND IMAGE */
 
 .contact-background {
@@ -19,6 +20,7 @@
     height: 100%;
     object-fit: cover;
 }
+
 
 /* FORM CONTAINER */
 
@@ -39,6 +41,7 @@
     text-align: center;
     margin-bottom: 70px;
 }
+
 
 /* FORM */
 
@@ -91,6 +94,7 @@
     resize: none;
 }
 
+
 /* NEWSLETTER */
 
 .contact-newsletter {
@@ -113,6 +117,7 @@
     line-height: 1.4;
 }
 
+
 /* SUBMIT */
 
 .contact-submit {
@@ -126,6 +131,7 @@
     font-size: 18px;
     text-align: center;
 }
+
 
 /* VISIT SECTION */
 
@@ -160,6 +166,7 @@
     max-width: 450px;
 }
 
+
 /* MAP */
 
 .visit-map {
@@ -175,33 +182,12 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* RESPONSIVE */
 
 /* LARGE TABLET */
 
 @media screen and (max-width: 1200px) {
+
     .contact-section {
         padding: 100px 35px;
     }
@@ -231,11 +217,14 @@
     .visit-map {
         height: 420px;
     }
+
 }
+
 
 /* TABLET */
 
 @media screen and (max-width: 1000px) {
+
     .contact-section {
         padding: 65px 35px;
     }
@@ -270,11 +259,14 @@
     .visit-map {
         height: 400px;
     }
+
 }
+
 
 /* MOBILE */
 
 @media screen and (max-width: 760px) {
+
     .contact-section {
         padding: 40px 25px;
     }
@@ -333,11 +325,14 @@
     .visit-map {
         height: 350px;
     }
+
 }
+
 
 /* SMALL MOBILE */
 
 @media screen and (max-width: 600px) {
+
     .contact-section {
         padding: 30px 18px;
     }
@@ -352,7 +347,8 @@
     }
 
     .contact-name-fields {
-        gap: 18px;
+        grid-template-columns: 1fr;
+        gap: 25px;
     }
 
     .contact-field label {
@@ -383,11 +379,14 @@
     .visit-map {
         height: 310px;
     }
+
 }
+
 
 /* VERY SMALL MOBILE */
 
 @media screen and (max-width: 360px) {
+
     .contact-section {
         padding: 20px 10px;
     }
@@ -452,4 +451,5 @@
     .visit-map {
         height: 260px;
     }
+
 }
